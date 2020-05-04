@@ -1,0 +1,26 @@
+header {
+    background: url(../images/SW_Banner.jpg);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+ .game-content {
+    text-align: center;
+    font-size: 24px;
+}
+
+td {
+    border: 5px solid black;
+    width: 1%;
+}
+
+.hangTitle {
+    font-size:24px;
+}
+
+
+#h_guessed_word {
+    letter-spacing: 10px;
+    font-size: 24px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Star Wars Hangman</title>
+    <!-- Linking Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Linking jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>    
+    <!-- Linking CSS Reset-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header"></div>
+    </header>
+    <main class="container">
+        <table class="game-content">
+            <tr>
+                  <h1>Star Wars Hangman</h1>
+            </tr> 
+            <tbody>
+                <tr>
+                    <td class="pic"></td>
+                    <td><h2 style="padding-bottom:5px;">PRESS ANY KEY TO GET STARTED!</h2>
+                        <h4>WINS:</h4>  <div id="h_wins"></div>
+                        <h4>CURRENT WORD:</h4> <div id="h_guessed_word"></div>
+                        <h4>GUESSES LEFT:</h4>  <div id="h_guesses"></div>
+                        <h4>ALL GUESSES:</h4>  <div id="h_guessed_letters"></div>
+                    </td>
+                </tr>
+            </tbody>      
+        </table>
+    </main> 
+    <script>
+        NewGame();
+    </script>   
+</body>
+</html>
